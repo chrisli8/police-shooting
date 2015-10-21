@@ -1,4 +1,61 @@
-/* You'll probably want to add some styles here */
+/* Christopher Li, INFO 343 C, 10/21/15 */
 #container {
 	height:800px;
+}
+
+table {
+	width: 100%;
+	border: solid black;
+}
+
+td, th {
+	width: 25%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+tr {
+	border-bottom: solid #BCBCBC 2px;
+}
+
+table tr:nth-child(even) {
+    background-color: #D0D0D0;
+}
+
+h1, table {
+	margin-bottom: 10px;
+}
+
+h1 { 
+	padding: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #990033;
+	border-radius: 20px;
+	width: 40%;
+	text-align: center;
+	color: white;
+}
+
+#pink {
+	color: #FFCCCC;
+}
+
+#brown {
+	color: #331F14;
+}
+
+#yellow {
+	color: #FFFFCC;
+}
+
+#gray {
+	color: #6B6B6B;
+
+}
+
+#pink, #brown, #yellow, #gray {
+	background-color: ;
+	text-shadow: 1px 1px black;
 }
